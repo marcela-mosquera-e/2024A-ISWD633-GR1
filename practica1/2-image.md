@@ -36,7 +36,7 @@ es un servidor Web de codigo abierto, estable, usa pocos recursos y requiere una
 ```
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
-
+ 
 ### Listar imágenes
 
 ```
