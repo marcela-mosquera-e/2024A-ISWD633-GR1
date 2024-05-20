@@ -23,15 +23,17 @@ Una imagen puede tener la etiqueta latest para representar la última versión, 
 docker pull <nombre imagen>:<tag>
 ```
 
-Descargar la imagen **hello-world**
-# COMPLETAR
+### Descargar la imagen **hello-world**
+
+docker pull hello-world
 
 **¿Qué es nginx**
 
 Es un servidor web y proxy inverso de código abierto que se utiliza para servir contenido web de manera eficiente y manejar múltiples conexiones simultáneamente. Desarrollado originalmente por Igor Sysoev, Nginx es conocido por su alto rendimiento, estabilidad y bajo consumo de recursos. 
 
-Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+### Descargar la imagen  **nginx** en la versión **alpine**
+
+docker pull nginx:alpine
 
 ### Listar imágenes
 
@@ -41,7 +43,11 @@ docker images
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
 
+![Imagen](imagenes/DockerImages.png)
+
+
 **Identificadores**
+
 En Docker, se utilizan varios identificadores para diferenciar de manera única los elementos del sistema, como imágenes, contenedores, volúmenes y redes. Estos identificadores son generados automáticamente por Docker y son únicos dentro del contexto del sistema Docker en el que se encuentran. 
 
 ### Inspeccionar una imagen
