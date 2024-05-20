@@ -43,7 +43,7 @@ docker images
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
 
-![Imagen](imagenes/DockerImages.png)
+![Imagen](imagenes/DockerImagenes.png)
 
 
 **Identificadores**
@@ -62,7 +62,19 @@ Inspeccionar la imagen hello-world
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+
+El ID de la imagen en Docker se genera utilizando un algoritmo hash criptográfico, específicamente SHA-256 (Secure Hash Algorithm 256-bit). Este algoritmo produce un valor hash único de 256 bits para la imagen, garantizando su integridad y unicidad.
+
+Aquí un ejemplo del ID:
+
+```
+[
+    {
+        "Id": "sha256:d2c94e258dcb3c5ac2798d32e1249e42ef01cba4841c2234249495f87264ac5a",
+        ...
+    }
+]
+```
 
 ### Filtrar imágenes
 
