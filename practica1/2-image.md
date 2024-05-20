@@ -4,7 +4,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+un contenedor utiliza una imagen como base para ejecutar una aplicación o conjunto de aplicaciones de forma aislada, ya que la imagen contiene todos los elementos necesarios para ello.
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
 ## Comandos para imágenes
@@ -27,7 +27,7 @@ Descargar la imagen **hello-world**
 # COMPLETAR
 
 **¿Qué es nginx**
-# COMPLETAR 
+es un servidor Web de codigo abierto, estable, usa pocos recursos y requiere una configuracion simple para su uso.
 
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
@@ -55,7 +55,7 @@ Inspeccionar la imagen hello-world
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+El ID de la imagen se genera utilizando el algoritmo de hash SHA256.
 
 ### Filtrar imágenes
 
