@@ -3,7 +3,8 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 ![Imagen](imagenes/imagen.PNG)
 
 
-## ¿Cuál es la relación entre una imagen y un contenedor? 
+## ¿Cuál es la relación entre una imagen y un contenedor?
+
 ```
 un contenedor utiliza una imagen como base para ejecutar una aplicación o conjunto de aplicaciones de forma aislada, ya que la imagen contiene todos los elementos necesarios para ello.
 ```
